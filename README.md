@@ -1,6 +1,6 @@
 <br/>
 <p align="center">
-  <h3 align="center">Build Your Personal Linktree with RootLink</h3>
+  <h3 align="center">RootLink</h3>
 
   <p align="center">
     Build your personal bio with RootLink
