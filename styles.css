@@ -1,0 +1,70 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #121212;
+  color: #fff;
+}
+.biolink-page {
+  text-align: center;
+  padding: 50px 0;
+}
+.biolink-page h1 {
+  color: #6c63ff;
+  margin-bottom: 20px;
+  font-size: 2.5em;
+}
+.biolink-page p {
+  color: #a9a9a9;
+  margin-bottom: 40px;
+  font-size: 1.2em;
+}
+.icon-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.icon-container a {
+  background: #6c63ff;
+  border-radius: 10px;
+  padding: 10px 15px;
+  margin: 5px;
+  transition: background-color 0.3s;
+}
+.icon-container a:hover {
+  background: #5755d9;
+}
+.spotify-widget {
+  margin: 20px auto;
+  width: 100%;
+  max-width: 300px;
+}
+.footer {
+  padding: 20px 0;
+  background-color: #181818;
+  text-align: center;
+  color: #a9a9a9;
+  margin-top: 40px;
+}
+.footer p {
+  margin: 0;
+  padding: 0;
+  font-size: 1em;
+}
+@media only screen and (max-width: 768px) {
+  .biolink-page h1 {
+    font-size: 2em;
+  }
+  .biolink-page p {
+    font-size: 1em;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .biolink-page h1 {
+    font-size: 1.5em;
+  }
+  .biolink-page p {
+    font-size: 0.9em;
+  }
+  .icon-container a {
+    padding: 8px 12px;
+  }
+}
